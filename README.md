@@ -1,14 +1,14 @@
 <p align="center">
-  <h1 align="center">Roseflix: A Netflix Clone</h1>
-  <img src="./public/images/readme/Main.png" alt="Roseflix Screenshot">
+  <h1 align="center">SVFlix: A Netflix Clone</h1>
+  <img src="./public/images/readme/Main.png" alt="SVFlix Screenshot">
   <p align="center">
     My React.js implementation of Netflix. Movie data was pulled from TMDB and trailer videos from Youtube.
     <br /><br />
     <a href="https://www.youtube.com/watch?v=GpHEcxh3ia8"><strong>View Video Demo »</strong></a>
     <br /><br />
-    <a href="https://github.com/crookedfingerworks/roseflix/issues">Report Bug</a>
+    <a href="https://github.com/crookedfingerworks/SVFlix/issues">Report Bug</a>
     ·
-    <a href="https://github.com/crookedfingerworks/roseflix/issues">Request Feature</a>
+    <a href="https://github.com/crookedfingerworks/SVFlix/issues">Request Feature</a>
   </p>
 </p>
 
@@ -57,7 +57,7 @@ Install latest version of npm
 
 1. Clone the project
    ```sh
-   git clone https://github.com/crookedfingerworks/roseflix.git
+   git clone https://github.com/crookedfingerworks/SVFlix.git
    ```
 2. Go to project directory and Install NPM packages
    ```sh
@@ -70,7 +70,7 @@ Install latest version of npm
    ```
 5. In a new directory, clone the backend and follow installation instructions on its README
    ```sh
-   git clone https://github.com/crookedfingerworks/roseflix-backend
+   git clone https://github.com/crookedfingerworks/SVFlix-backend
    ```
 6. You should now have the server running locally. Add the url to your .env
    ```sh
@@ -152,4 +152,4 @@ Install latest version of npm
 
 crooked.finger.works@gmail.com
 
-Project Link: [https://github.com/crookedfingerworks/roseflix](https://github.com/crookedfingerworks/roseflix)
+Project Link: [https://github.com/crookedfingerworks/SVFlix](https://github.com/crookedfingerworks/SVFlix)
