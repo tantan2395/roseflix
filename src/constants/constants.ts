@@ -77,7 +77,7 @@ export const FEATURES = [
 		title: 'Download your shows to watch offline.',
 		description: 'Save your favorites easily and always have something to watch.',
 		video: '',
-		image: '/images/misc/Home-Mobile.jpg',
+		image: '/images/misc/Home-mobile.jpg',
 		alt: 'SVFlix on mobile',
 		direction: 'row-reverse'
 	},
@@ -85,7 +85,7 @@ export const FEATURES = [
 		id: 3,
 		title: 'Watch everywhere.',
 		description: 'Stream unlimited movies and TV shows on your phone, tablet, laptop and TV without paying more.',
-		image: '/images/misc/Home-IMac.jpg',
+		image: '/images/misc/home-imac.jpg',
 		alt: 'SVFlix on different devices'
 	}
 ];
