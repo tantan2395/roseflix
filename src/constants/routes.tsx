@@ -1,3 +1,4 @@
+import { JSX } from 'react';
 import { Home, Browse, Signin, Signup } from '../pages';
 
 type Routes = {
