@@ -1,4 +1,5 @@
-FROM node:16
+# Stage 1: Build React app
+FROM node:16 AS build
 
 WORKDIR /app
 
@@ -7,6 +8,17 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
-EXPOSE 3000
+RUN npm run build
 
-CMD ["npm", "start"]
+# Stage 2: Serve with Nginx
+FROM nginx:alpine
+
+# Copy build files from previous stage
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Copy custom nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
