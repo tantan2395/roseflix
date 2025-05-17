@@ -77,7 +77,7 @@ export const FEATURES = [
 		title: 'Download your shows to watch offline.',
 		description: 'Save your favorites easily and always have something to watch.',
 		video: '',
-		image: '/images/misc/Home-mobile.jpg',
+		image: '/images/misc/home-mobile.jpg',
 		alt: 'SVFlix on mobile',
 		direction: 'row-reverse'
 	},
