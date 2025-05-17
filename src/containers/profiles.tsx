@@ -20,7 +20,7 @@ function ProfilesContainer({ userDetails, setProfile }: ProfilesContainerType) {
 	const { setUserDetails } = useUser();
 	const [ render, setRender ] = useState<RenderType>({ type: 'default', args: {} });
 	const [ editingUser, setEditingUser ] = useState<Profile | null>();
-	const prevDetails = useRef<Profile>();
+	const prevDetails = useRef<Profile | null>(null);
 	const usedAvatars = userDetails && userDetails.profiles ? userDetails.profiles.map(({ avatar }) => avatar) : [];
 	const usedNames = userDetails && userDetails.profiles ? userDetails.profiles.map(({ name }) => name) : [];
 

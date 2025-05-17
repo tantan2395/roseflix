@@ -34,11 +34,11 @@ function Browse() {
 	useEffect(
 		() => {
 			setLoading(true);
-			setTimeout(() => {
+			const timeoutId = setTimeout(() => {
 				setLoading(false);
 			}, 1000);
 			return () => {
-				clearTimeout();
+				clearTimeout(timeoutId);
 			};
 		},
 		[ profile ]
